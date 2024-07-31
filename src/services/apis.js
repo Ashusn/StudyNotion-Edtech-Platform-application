@@ -1,6 +1,8 @@
-const BASE_URL='http://localhost:4000/api/v1'
-// const BASE_URL=process.env.REACT_APP_BASE_URL
-
+// const BASE_URL='http://localhost:4000/api/v1'
+// require("dotenv").config()
+// import { BASE_URL } from "../../server/config/database"
+const BASE_URL = process.env.REACT_APP_BASE_URL
+// console.log()
 // AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",

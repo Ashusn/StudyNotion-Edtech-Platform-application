@@ -116,7 +116,7 @@ function App() {
         </div> */}
       </div>
     ), {
-      duration: 4000,
+      duration: 5000,
     })
     settoastStatus(false)
   }
